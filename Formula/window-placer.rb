@@ -1,10 +1,13 @@
 
 class WindowPlacer < Formula
   desc "A tool to manage window placement"
+  version "0.3.0"
   homepage "https://github.com/hrtshu/WindowPlacer"
-  url "https://github.com/hrtshu/WindowPlacer/releases/download/v0.2.0/WindowPlacer"
-  sha256 "f7509d8c958cca9be0a5812a234e898b08a94b2ee209be74f1ea6aa28bef782b"
-  version "0.2.0"
+
+  on_arm do
+    url "https://github.com/hrtshu/WindowPlacer/releases/download/v#{version}/WindowPlacer"
+    sha256 "13b0e770bfdaad0b36f48c5b21090368ea67523f863f53fbf307b8a623643713"
+  end
 
   def install
     bin.install "WindowPlacer"
