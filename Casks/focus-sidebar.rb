@@ -1,6 +1,6 @@
 cask "focus-sidebar" do
   name "FocusSidebar"
-  version "0.4.0"
+  version "0.4.1"
 
   arch arm: "arm64-mac", intel: "mac"
 
