@@ -1,12 +1,12 @@
 
 class ChromeTabbarShortcut < Formula
   desc "A keyboard shortcut to toggle Chrome vertical tab bar"
-  version "0.1.0"
+  version "0.1.1"
   homepage "https://github.com/hrtshu/ChromeTabbarShortcut"
 
   on_arm do
     url "https://github.com/hrtshu/ChromeTabbarShortcut/releases/download/v#{version}/ChromeTabbarShortcut"
-    sha256 "ba8cf480ed9c0bcaf403e2fd6e2fd4a1270dbed21b8e6646182a5db34dc38491"
+    sha256 "e59a96fd90a021694301bfa8959c985a4aaad4a43a9941517c4aedd73b6aa58a"
   end
 
   def install
